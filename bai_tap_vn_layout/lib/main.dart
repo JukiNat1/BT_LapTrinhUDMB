@@ -5,6 +5,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -47,6 +49,8 @@ class FlutterDemoHomePage extends StatelessWidget {
           "https://images.pexels.com/photos/6311393/pexels-photo-6311393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
   ];
+
+  FlutterDemoHomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
